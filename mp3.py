@@ -8,7 +8,7 @@ def ketik(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(random.random() * 0.5)
-
+ketik("Created By Mr_MSDV")
 print "sebelumnya sudah pernah install Tools Ini ? Y/n ?"
 n = raw_input("masukan pilihan : ")
 if n == 'n':

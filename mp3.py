@@ -32,8 +32,13 @@ def start():
 				os.system("sh install.sh")
 				ketik("install selesai . . . .")
 				print("Untuk Menjalankan Tools Masukan comand mpsyt")
+				b = raw_input("langsung jalankan tools ? Y/n ?")
+				if b == 'y':
+					os.system("mpsyt")
+				else :
+					break
 				time.sleep(3)
-				break
+				
 		elif n == 'y':
 				ketik("%swaiting%s.%s.%s.%s.%s."%(g,r,c,y,w,g))
 				ketik("%smau %sloading %sbentar . . . "%(g,r,g))

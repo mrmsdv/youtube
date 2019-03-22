@@ -38,6 +38,7 @@ def start():
 				ketik("%swaiting%s.%s.%s.%s.%s."%(g,r,c,y,w,g))
 				ketik("%smau %sloading %sbentar . . . "%(g,r,g))
 				print "kalau ingin search ketik %s'/nama_lagu'"%(c)
+				print "Tekan %sctrl + z %suntuk keluar"%(g,c)
 				os.system("mpsyt")
 				break
 				

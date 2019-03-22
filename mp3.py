@@ -33,7 +33,7 @@ def start():
 				ketik("install selesai . . . .")
 				print("Untuk Menjalankan Tools Masukan comand mpsyt")
 				time.sleep(3)
-				pass
+				break
 		elif n == 'y':
 				ketik("%swaiting%s.%s.%s.%s.%s."%(g,r,c,y,w,g))
 				ketik("%smau %sloading %sbentar . . . "%(g,r,g))

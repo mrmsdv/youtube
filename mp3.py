@@ -32,8 +32,13 @@ def start():
 				os.system("sh install.sh")
 				ketik("install selesai . . . .")
 				print("Untuk Menjalankan Tools Masukan comand mpsyt")
-				b = raw_input("langsung jalankan tools ? Y/n ?")
+				os.system("clear")
+				print ("%sLangsung jalankan Tools ? %sY/n"%(g,c))
+				b = raw_input("%smasukan pilihan"%(r))
 				if b == 'y':
+					print "kalau ingin search ketik %s'/nama_lagu'"%(c)
+					print "Tekan %sctrl + z %suntuk keluar"%(g,c)
+					time.sleep(2)
 					os.system("mpsyt")
 				else :
 					break
